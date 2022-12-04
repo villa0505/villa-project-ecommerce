@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 219, 244);
+}
+.header{
+    display: flex;
+    background: rgb(191, 7, 252);
+    padding: 10px;
+}
+ul{
+    margin-left: 5%;
+}
+.logo img{
+    border-radius: 50%;
+}
+.title_header{
+    margin-left: 30%;
+}
+.costomer ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+li a{
+    margin: 100px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+a:hover{
+    color: yellow;
+}
+li{
+    list-style: none;
+}
+
+main{
+    display: flex;
+}
+
+.btn_cos{
+display: flex;
+justify-content: center;
+margin-top: 5%;
+margin-left: -18%;
+}
+.btn_cos button{
+    padding: 8px;
+    background: rgb(218, 167, 235);
+
+}
+/* =============================== */
+dialog{
+    width: 40%;
+    margin-top: -10%;
+    background-color: rgb(218, 167, 235);
+}
+.create_product{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding-top:20% ;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+}
+
+.info_title{
+    font-size: 20px;
+}
+dialog{
+    justify-content: center;
+}
+
+/* =================================== */
+
+.create{
+    margin-top: 100px;
+}
+
+.lists input{
+    width: 95%;
+    margin: 10px;
+    padding: 7px;
+} 
+.btn_costomer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.btn_costomer button{
+    padding: 7px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 100px auto;
+    margin-top: -1px;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.tables_seller{
+    width: 60%;
+    background: rgb(235, 206, 247);
+
+}
+.thead{
+    background: rgb(218, 167, 235);
+}
+/* ========= */
+ .but{
+    display: flex;
+    justify-content: flex-end;
+} 
+.but button{
+    margin: 2px;
+} 
+
+/* =========== */
+footer{
+    background: rgb(191, 7, 252);
+    height: 35vh;
+}
+.footer_h1 h1{
+    display: flex;
+    justify-content: center;
+}
+.footer_h1 p{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i{
+    margin: 10px;
+}
+/* ---------JS----------- */
+.add_img img{
+    width: 50%;
+}
+td{
+    width: 5%;
+}
+.delete,.edit{
+    background: rgb(218, 167, 235);
+    border-radius: 15%;
+    padding: 2%;
+}
+.delete{
+    margin-left: 45%;
+    width: 30%;
+}
+.edit{
+    margin-top:40%;
+    width: 25%;
+}

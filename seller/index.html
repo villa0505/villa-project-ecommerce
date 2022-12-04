@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <head>
+        <div class="header">
+            <div class="logo">
+                <img src="../img/56d32251a58e441a9cb1638124f5e19c.png" alt="" width="80px" height="80px">
+            </div>
+            <div class="title_header">
+                <h1>Welcome to BlackPink_Shop</h1>
+            </div>
+            <div class="costomer">
+                <ul>
+                    <li><a href="../index.html">Costomers</a></li>
+                    <li><a href="index.html">Sellers</a></li>
+                </ul>
+            </div>
+        </div>
+    </head>
+    <div class="btn_cos">
+        <button onclick="add()">Add_Product</button>
+    </div>
+    <main>
+<!-- ===================================== -->
+    
+    <!-- <div class="create_product" style="display: none">  -->
+        <div class="create_product">
+            <dialog open>
+                <div class="lists">
+                    <div class="info_title">complete your information</div>
+                    <div>
+                        <input id="chose_name" type="text" placeholder="Product Name">
+                    </div>
+                    <div>
+                        <input id="chose_price" type="number" placeholder="Product Price">
+                    </div>
+                    <div>
+                        <input id="chose_img" type="text" placeholder="Image url">
+                    </div>
+                    <menu>
+                        <div class="btn_costomer">
+                            <button onclick="cancel()">Cancel</button>
+                            <button onclick="Oncreate()"  id="Create_Edit">Create</button>
+                            <!-- <button onclick="edit()" class="newedit">Edit</button> -->
+                        </div>
+                    </menu>
+                    
+                </div>
+            </dialog>
+        </div>
+    
+   
+
+<!-- ============================================ -->
+
+        <div class="shop">
+            <img src="imgs/Shopping.png" alt="">
+        </div>
+        
+         <div class="tables_seller">
+                <table>
+                    <thead class="thead">
+                        <tr>
+                            <th>Img</th>
+                            <th>name</th>
+                            <th>price</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <!-- ------ -->
+                        <tbody class="tbody">
+                    
+                        </tbody> 
+                    <!-- -------- -->
+                </table> 
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_h1">
+            <h1>about us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit omnis voluptatum repellat cum veniam exercitationem!<br/> Atque, impedit ad ex dolorum ipsum reprehenderit illum quod dicta velit eos soluta porro explicabo.</p>
+        </div>
+        <div class="footer-icon">
+            <i class="fa fa-facebook-square fa-3x "></i>
+    
+            <i class="fa fa-twitter-square fa-3x "></i>
+        
+            <i class="fa fa-linkedin-square fa-3x "></i>
+        </div>
+    </footer>
+</body>
+<script src="JS/seller.js"></script>
+</html>
